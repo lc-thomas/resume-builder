@@ -11,8 +11,8 @@ INDENT = 10
 MARGIN_SECTION = 25
 SECTION_ICON_SIZE = 14
 DOCUMENTS_NAME = {
-    'fr': 'output/CV', 
-    'en': 'output/resume'
+    'fr': 'output/CV.pdf', 
+    'en': 'output/resume.pdf'
 }
 SECTIONS_NAME = {
     'fr' : {
