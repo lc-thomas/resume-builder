@@ -1,0 +1,57 @@
+cv:
+  personnal_informations:
+    first_name: Paul
+    last_name: OCHON
+    mail: paul-ochon@libertysurf.net
+  title: 
+    fr: Vendeur de rêve
+    en: Dream seller
+  summary:
+    fr:
+      - description paragraph 1
+      - description paragraph 2
+    en:
+      - description paragraph 1
+      - description paragraph 2
+  skills:
+    Python:
+      level: 4
+      subskills:
+        - Django
+        - Channels
+        - Flask
+        - Asyncio 
+        - PIL
+        - Reportlab
+        - OpenCV
+        - ...
+    Docker:
+      level: 4
+      subskills:
+        - compose
+        - swarm
+  experiences:
+    Company_name:
+      start: date_start
+      end: date_end
+      summary_fr: vente de rêves
+      summary_en: selling dreams
+    Company_name:
+      start: date_start
+      end: date_end
+      summary_fr: vente de rêves
+      summary_en: selling dreams
+    Company_name:
+      start: date_start
+      end: date_end
+      summary_fr: vente de rêves
+      summary_en: selling dreams
+  more:
+    fr:
+      - more paragraph 1
+      - more paragraph 2
+      - Github - github.com/K-marad
+    en:
+      - more paragraph 1
+      - more paragraph 2
+      - Github - github.com/K-marad

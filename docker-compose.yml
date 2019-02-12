@@ -1,0 +1,12 @@
+version: "3"
+services:
+  cv_builder:
+    container_name: cv_builder
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python3 script.py
+    volumes:
+      - ./sources:/cv_builder
+#    restart: always
+    working_dir: /cv_builder
