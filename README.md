@@ -13,3 +13,5 @@ Just edit global variables at the beginning of the script
 ## Usage
 
 ```docker-compose up```
+
+The generated resumes will be in ```./sources/output```
