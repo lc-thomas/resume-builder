@@ -139,7 +139,7 @@ if __name__ == '__main__':
                 cv_filename = DOCUMENTS_NAME[language]
                 cv = CVBuilder(cv_filename, language)
                 with open(file.name, 'r') as f:
-                    cv_data = yaml.load(f.read())['cv']
+                    cv_data = yaml.load(f.read(), Loader=yaml.FullLoader)['cv']
                     
                     # Name
                     cv.set_font_name()
